@@ -8,7 +8,7 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <Navbar className="navbar" expand="lg">
+    <Navbar sticky="top" bg="white" className="navbar" expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
             <img style={{height: '40px'}} src={logo} alt="Red Onion Logo" />

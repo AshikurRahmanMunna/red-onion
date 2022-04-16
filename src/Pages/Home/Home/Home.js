@@ -1,5 +1,8 @@
 import React from "react";
+import BreakFast from "../BreakFast/BreakFast";
+import Foods from "../../Foods/Foods";
 import "./Home.css";
+import WhyYouChooseUs from "../WhyYouChooseUs/WhyYouChooseUs";
 
 const Home = () => {
   return (
@@ -17,6 +20,8 @@ const Home = () => {
           </div>
         </form>
       </div>
+      <Foods></Foods>
+      <WhyYouChooseUs></WhyYouChooseUs>
     </div>
   );
 };
