@@ -29,7 +29,7 @@ const Foods = () => {
         </div>
       </div>
       {foodToDisplay}
-      <button className="btn-custom">Checkout Your Food</button>
+      <button className="btn-custom d-block mx-auto">Checkout Your Food</button>
     </div>
   );
 };

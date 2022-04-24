@@ -1,9 +1,9 @@
 .navbar .nav-link {
     font-family: 'Poppins', sans-serif;
-    margin-left: 10px;
+    margin-right: 10px;
     color: black !important;
-    padding: 5px 30px !important;
-    border-radius: 30px;
+    padding: 10px 15px !important;
+    border-radius: 10px;
 }
 .navbar .nav-link:hover {
     transition: all .3s ease;

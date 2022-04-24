@@ -24,7 +24,7 @@ const WhyYouChooseUs = () => {
             icon: faBell
         },
         {
-            id: 1,
+            id: 3,
             title: 'Home Delivery',
             description: 'Keep your system in sync with automated web hooks based notifications each time link is paid and how we dream about our future.',
             img: chooseUs3,

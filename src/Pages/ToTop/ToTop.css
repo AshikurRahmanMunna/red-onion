@@ -1,0 +1,19 @@
+.to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    background: lightgray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-top-icon {
+    height: 35px;
+    width: 35px;
+}
+.to-top-icon path {
+    fill: #F91944;
+}
