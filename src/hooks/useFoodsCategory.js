@@ -1,15 +1,17 @@
 import { useEffect, useState } from "react";
 
 const useFoodsCategory = (category) => {
-  const [categoryFoods, setcategoryFoods] = useState([]);
+  const [categoryFoods, setCategoryFoods] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://vast-forest-41869.herokuapp.com/products")
       .then((res) => res.json())
       .then((data) => {
-        const foods = data.filter((p) => p.category.toLowerCase() === category.toLowerCase());
-        setcategoryFoods(foods);
+        const foods = data.filter(
+          (p) => p.category.toLowerCase() === category.toLowerCase()
+        );
+        setCategoryFoods(foods);
       });
   });
-  return [categoryFoods, setcategoryFoods];
+  return [categoryFoods, setCategoryFoods];
 };
 export default useFoodsCategory;
