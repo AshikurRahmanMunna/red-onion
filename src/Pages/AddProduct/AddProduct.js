@@ -18,7 +18,7 @@ const AddProduct = () => {
             img
         }
         console.log(name, des, category, price, img);
-        fetch('http://localhost:5000/product', {
+        fetch('https://vast-forest-41869.herokuapp.com/product', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
